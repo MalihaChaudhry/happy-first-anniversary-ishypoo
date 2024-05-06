@@ -57,7 +57,7 @@ const SpotTheDifference = () => {
           difference!
         </h2>
         <img
-          src='images/SpotTheDifference.png'
+          src='./happy-first-anniversary-ishypoo/images/SpotTheDifference.png'
           alt='A picturing of two kayaking scenes, with 10 differences between the two images'
           onClick={(e) => handleClick(e)}
         />

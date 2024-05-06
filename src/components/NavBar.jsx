@@ -14,13 +14,16 @@ const NavBar = () => {
         <ul>
           <NavLink to='/'>
             <li className='navHome'>
-              <img src='images/icons8-home-50.png' alt='link to Home'></img>
+              <img
+                src='./happy-first-anniversary-ishypoo/images/icons8-home-50.png'
+                alt='link to Home'
+              ></img>
             </li>
           </NavLink>
           <NavLink to='/Crossword'>
             <li className='navCrossword'>
               <img
-                src='images/icons8-crossword-64.png'
+                src='./happy-first-anniversary-ishypoo/images/icons8-crossword-64.png'
                 alt='link to Crossword Puzzle'
               ></img>
             </li>
@@ -28,20 +31,23 @@ const NavBar = () => {
           <NavLink to='/SpotTheDifference'>
             <li className='navSpotTheDifference'>
               <img
-                src='images/icons8-magnifying-glass-50.png'
+                src='./happy-first-anniversary-ishypoo/images/icons8-magnifying-glass-50.png'
                 alt='link to I Spy'
               ></img>
             </li>
           </NavLink>
           <NavLink to='/MadLibs'>
             <li className='navMadLibs'>
-              <img src='images/icons8-note-50.png' alt='link to MadLibs'></img>
+              <img
+                src='./happy-first-anniversary-ishypoo/images/icons8-note-50.png'
+                alt='link to MadLibs'
+              ></img>
             </li>
           </NavLink>
           <NavLink to='/WordSearch'>
             <li className='navWordSearch'>
               <img
-                src='images/icons8-letters-64.png'
+                src='./happy-first-anniversary-ishypoo/images/icons8-letters-64.png'
                 alt='link to Word Search'
               ></img>
             </li>

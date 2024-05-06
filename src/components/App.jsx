@@ -12,7 +12,10 @@ const App = () => {
     <>
       <div className='routes-all'>
         <Routes>
-          <Route path='/' element={<HomePage />}></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//'
+            element={<HomePage />}
+          ></Route>
           <Route path='/Crossword' element={<Crossword />}></Route>
           <Route
             path='/SpotTheDifference'
