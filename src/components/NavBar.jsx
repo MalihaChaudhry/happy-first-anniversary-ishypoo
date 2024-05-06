@@ -12,42 +12,36 @@ const NavBar = () => {
     <>
       <nav>
         <ul>
-          <NavLink to='/'>
+          <NavLink to='/happy-first-anniversary-ishypoo/'>
             <li className='navHome'>
-              <img
-                src='./happy-first-anniversary-ishypoo/images/icons8-home-50.png'
-                alt='link to Home'
-              ></img>
+              <img src='images/icons8-home-50.png' alt='link to Home'></img>
             </li>
           </NavLink>
-          <NavLink to='/Crossword'>
+          <NavLink to='/happy-first-anniversary-ishypoo/Crossword'>
             <li className='navCrossword'>
               <img
-                src='./happy-first-anniversary-ishypoo/images/icons8-crossword-64.png'
+                src='images/icons8-crossword-64.png'
                 alt='link to Crossword Puzzle'
               ></img>
             </li>
           </NavLink>
-          <NavLink to='/SpotTheDifference'>
+          <NavLink to='/happy-first-anniversary-ishypoo/SpotTheDifference'>
             <li className='navSpotTheDifference'>
               <img
-                src='./happy-first-anniversary-ishypoo/images/icons8-magnifying-glass-50.png'
+                src='images/icons8-magnifying-glass-50.png'
                 alt='link to I Spy'
               ></img>
             </li>
           </NavLink>
-          <NavLink to='/MadLibs'>
+          <NavLink to='/happy-first-anniversary-ishypoo/MadLibs'>
             <li className='navMadLibs'>
-              <img
-                src='./happy-first-anniversary-ishypoo/images/icons8-note-50.png'
-                alt='link to MadLibs'
-              ></img>
+              <img src='images/icons8-note-50.png' alt='link to MadLibs'></img>
             </li>
           </NavLink>
-          <NavLink to='/WordSearch'>
+          <NavLink to='/happy-first-anniversary-ishypoo/WordSearch'>
             <li className='navWordSearch'>
               <img
-                src='./happy-first-anniversary-ishypoo/images/icons8-letters-64.png'
+                src='images/icons8-letters-64.png'
                 alt='link to Word Search'
               ></img>
             </li>
