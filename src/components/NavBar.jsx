@@ -12,7 +12,7 @@ const NavBar = () => {
     <>
       <nav>
         <ul>
-          <NavLink to='/'>
+          <NavLink to='/happy-first-anniversary-ishypoo/'>
             <li className='navHome'>
               <img
                 src='./happy-first-anniversary-ishypoo/images/icons8-home-50.png'
