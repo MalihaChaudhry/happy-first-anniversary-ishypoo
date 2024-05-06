@@ -12,15 +12,30 @@ const App = () => {
     <>
       <div className='routes-all'>
         <Routes>
-          <Route path='/' element={<HomePage />}></Route>
-          <Route path='/Crossword' element={<Crossword />}></Route>
           <Route
-            path='/SpotTheDifference'
+            path='happy-first-anniversary-ishypoo/'
+            element={<HomePage />}
+          ></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//Crossword'
+            element={<Crossword />}
+          ></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//SpotTheDifference'
             element={<SpotTheDifference />}
           ></Route>
-          <Route path='/MadLibs' element={<MadLibs />}></Route>
-          <Route path='/NotFoundPage' element={<NotFoundPage />}></Route>
-          <Route path='/WordSearch' element={<WordSearch />}></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//MadLibs'
+            element={<MadLibs />}
+          ></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//NotFoundPage'
+            element={<NotFoundPage />}
+          ></Route>
+          <Route
+            path='happy-first-anniversary-ishypoo//WordSearch'
+            element={<WordSearch />}
+          ></Route>
         </Routes>
       </div>
     </>
